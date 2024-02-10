@@ -85,7 +85,7 @@ class Swiper extends Component {
     this._mounted = false
     this.state.pan.x.removeAllListeners()
     this.state.pan.y.removeAllListeners()
-    Dimensions.removeEventListener('change', this.onDimensionsChange)
+    //Dimensions.removeEventListener('change', this.onDimensionsChange)
   }
 
   getCardStyle = () => {
